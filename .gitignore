@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backend generated files
+backend/error.log
+backend/error.txt
+backend/server_error.log
+backend/schema_info.json
+backend/build.log
+
+# Root level temp/test files
+build.log
+test_staff_api.js
+restructure.ps1
